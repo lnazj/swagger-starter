@@ -1,0 +1,81 @@
+{
+  "groups": [
+    {
+      "name": "swagger",
+      "type": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.contact",
+      "type": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties$Contact",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties",
+      "sourceMethod": "getContact()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "swagger.base-package",
+      "type": "java.lang.String",
+      "description": "swagger扫描的基础包",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "swagger.base-path",
+      "type": "java.lang.String",
+      "description": "需要处理的基础url规则",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties",
+      "defaultValue": "\/**"
+    },
+    {
+      "name": "swagger.contact.email",
+      "type": "java.lang.String",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties$Contact"
+    },
+    {
+      "name": "swagger.contact.name",
+      "type": "java.lang.String",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties$Contact"
+    },
+    {
+      "name": "swagger.contact.url",
+      "type": "java.lang.String",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties$Contact"
+    },
+    {
+      "name": "swagger.description",
+      "type": "java.lang.String",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.exclude-path",
+      "type": "java.lang.String",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "swagger.license",
+      "type": "java.lang.String",
+      "description": "许可证",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.license-url",
+      "type": "java.lang.String",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.title",
+      "type": "java.lang.String",
+      "description": "标题，必填",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.jrkj.swaggerspringbootstarter.config.SwaggerProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,6 @@
+com\jrkj\swaggerspringbootstarter\config\SwaggerProperties.class
+com\jrkj\swaggerspringbootstarter\config\SwaggerProperties$Contact.class
+com\jrkj\swaggerspringbootstarter\condition\SwaggerCondition.class
+com\jrkj\swaggerspringbootstarter\SwaggerServiceAutoConfiguration.class
+com\jrkj\swaggerspringbootstarter\EnableYLFSwagger2.class
+META-INF\spring-configuration-metadata.json
